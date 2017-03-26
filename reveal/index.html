@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>reveal</title>
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link href="http://cdn.bootcss.com/reveal.js/3.3.0/css/reveal.min.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/reveal.js/3.3.0/css/theme/moon.min.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/reveal.js/3.3.0/lib/css/zenburn.min.css" rel="stylesheet">
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+						
+						|mon|tue|wed|
+						| - |---|---|
+						|mon|tue|wed|
+						|shizaishi||taidiao|
+
+						![](http://ww2.sinaimg.cn/large/684e1b7fgw1f7lh77tmkuj212w0jgwoz.jpg)<!-- .element: class="fragment" -->
+						
+					</script>
+				</section>
+			<section>
+				xie
+			</section>
+			<section>
+			    <p class="fragment">none</p>
+			    <p class="fragment fade-out">fade-out</p>
+			    <p class="fragment highlight-blue">highlight-blue</p>
+			</section>
+			<section>
+				<section id="zai">为了竖着
+					<video data-autoplay src="161027看电视.mp4" type="video/mp4"></video>
+				</section>
+				<section data-transition="convex">
+					<video data-autoplay controls src="http://tx2.a.yximgs.com/udata/W_cWGThtrrBOo_en.mp4" type="video/mp4"></video>
+				</section>
+				<section data-background-video="http://js.a.yximgs.com/udata/W_UYb8JQHsPRs_en.mp4"></section>
+			</section>
+			<section></section>
+			<section data-markdown>
+				<script type="text/template">
+					## Markdown support
+
+					Write content using inline or external Markdown.
+					Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+					```
+					<section data-markdown>
+					  ## Markdown support
+
+					  Write content using inline or external Markdown.
+					  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+					</section>
+					```
+				</script>
+			</section>
+			<section data-background-image="http://ww2.sinaimg.cn/large/684e1b7fgw1f7lh77tmkuj212w0jgwoz.jpg"></section>
+			<section data-transition="concave"><a href="https://wdee0618.github.io/">goto</a></section>
+		</div>
+	</div>
+	<script src="http://cdn.bootcss.com/reveal.js/3.3.0/js/reveal.min.js"></script>
+	<script src="http://cdn.bootcss.com/reveal.js/3.3.0/lib/js/head.min.js"></script>
+	<script>
+	    Reveal.initialize({
+	    	mouseWheel:true,
+	    	controls: true,
+	    	progress: true,
+	    	history: true,
+	    	center: true,
+
+	    	transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+	    	// More info https://github.com/hakimel/reveal.js#dependencies
+	    	dependencies: [
+
+	    		{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/markdown/marked.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	    		{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	    		{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+	    	]
+	    });
+	</script>
+</body>
+</html>

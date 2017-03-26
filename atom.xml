@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KUMU</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wdee0618.github.io/"/>
+  <updated>2017-03-26T11:58:14.000Z</updated>
+  <id>https://wdee0618.github.io/</id>
+  
+  <author>
+    <name>Wdee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://wdee0618.github.io/2017/03/26/hello-world/"/>
+    <id>https://wdee0618.github.io/2017/03/26/hello-world/</id>
+    <published>2017-03-26T11:58:13.970Z</published>
+    <updated>2017-03-26T11:58:14.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>music</title>
+    <link href="https://wdee0618.github.io/2017/03/26/music/"/>
+    <id>https://wdee0618.github.io/2017/03/26/music/</id>
+    <published>2017-03-26T05:49:25.000Z</published>
+    <updated>2017-03-26T14:51:24.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Aplayer&quot;&gt;&lt;a href=&quot;#Aplayer&quot; clas
+    
+    </summary>
+    
+    
+      <category term="tutorial" scheme="https://wdee0618.github.io/tags/tutorial/"/>
+    
+      <category term="media" scheme="https://wdee0618.github.io/tags/media/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>demo</title>
+    <link href="https://wdee0618.github.io/2017/03/25/demo/"/>
+    <id>https://wdee0618.github.io/2017/03/25/demo/</id>
+    <published>2017-03-25T06:39:37.000Z</published>
+    <updated>2017-03-26T15:34:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
+    
+    </summary>
+    
+      <category term="小样" scheme="https://wdee0618.github.io/categories/%E5%B0%8F%E6%A0%B7/"/>
+    
+    
+      <category term="tutorial" scheme="https://wdee0618.github.io/tags/tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>video</title>
+    <link href="https://wdee0618.github.io/2017/03/24/video/"/>
+    <id>https://wdee0618.github.io/2017/03/24/video/</id>
+    <published>2017-03-24T15:21:28.000Z</published>
+    <updated>2017-03-26T15:39:06.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
+    
+    </summary>
+    
+    
+      <category term="media" scheme="https://wdee0618.github.io/tags/media/"/>
+    
+      <category term="demo" scheme="https://wdee0618.github.io/tags/demo/"/>
+    
+  </entry>
+  
+</feed>
