@@ -131,17 +131,17 @@
 				autoplay: false,
 				showlrc: 0,
 				music: {
-					title: "Promise",
-					author: "山冈晃",
-					url: "http://m2.music.126.net/LJgyuqU-O_TmI2tDxzzODg==/3274345632451312.mp3",
-					pic: "http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif",
+					title: "你听得到",
+					author: "Jay",
+					url: "https://p2.music.126.net/6Ice2IN3d7sVizAsigbwhw==/3323823650824614.mp3",
+					pic: "https://p3.music.126.net/RBNa1MGuuwhLWWC8J_Pyhg==/3242459793609734.jpg",
 				}
 			});
 		</script>
 <h4 id="多曲随机带列表"><a href="#多曲随机带列表" class="headerlink" title="多曲随机带列表"></a>多曲随机带列表</h4>
 			<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
 			<script>
-				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"Promise","author":"山冈晃","url":"http://m2.music.126.net/LJgyuqU-O_TmI2tDxzzODg==/3274345632451312.mp3","pic":"http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif"},{"title":"Sugar","author":"Robin Schulz","url":"https://p2.music.126.net/zCu_9lObZshxKeaAwIEwWA==/7990151000515690.mp3","pic":"https://p4.music.126.net/vbMPrqWJ-ywerdZMT4fBzA==/7842816441968318.jpg","lrc":"sugar.txt"}]};
+				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"梦醒时分","author":"500","url":"https://p2.music.126.net/u2TNGjbjmsJbBZ4LpI8APQ==/1230353511489159.mp3","pic":"https://p4.music.126.net/L570AKxOSH6U4vEIMoHGXQ==/45079976751506.jpg"},{"title":"你听得到","author":"Jay","url":"https://p2.music.126.net/6Ice2IN3d7sVizAsigbwhw==/3323823650824614.mp3","pic":"https://p3.music.126.net/RBNa1MGuuwhLWWC8J_Pyhg==/3242459793609734.jpg","lrc":"你听得到.txt"}]};
 				options.element = document.getElementById("aplayer1");
 				new APlayer(options);
 			</script>
