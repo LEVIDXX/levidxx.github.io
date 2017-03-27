@@ -4,26 +4,9 @@
   
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>https://wdee0618.github.io/2017/03/26/hello-world/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[music]]></title>
       <url>https://wdee0618.github.io/2017/03/26/music/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h2 id="Aplayer"><a href="#Aplayer" class="headerlink" title="Aplayer"></a>Aplayer</h2><h4 id="单曲"><a href="#单曲" class="headerlink" title="单曲"></a>单曲</h4><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><h2 id="Aplayer"><a href="#Aplayer" class="headerlink" title="Aplayer"></a>Aplayer</h2><h4 id="单曲"><a href="#单曲" class="headerlink" title="单曲"></a>单曲</h4><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
 				element: document.getElementById("aplayer0"),
@@ -71,7 +54,7 @@
     <entry>
       <title><![CDATA[demo]]></title>
       <url>https://wdee0618.github.io/2017/03/25/demo/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
 
 <h3 class="text-center">利用http&amp;m3u8</h3>
 
@@ -110,7 +93,7 @@
     <entry>
       <title><![CDATA[video]]></title>
       <url>https://wdee0618.github.io/2017/03/24/video/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
 
 <h3 id="wss" class="text-center">video.js单击此处弹播放器</h3><br><video id="really-cool-video" class="video-js center-block vjs-default-skin vjs-big-play-centered " controls preload="auto" width="640" height="600" poster="img/201510222203541161.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4"><br></video><br><br><br><br><h3 class="text-center">rtmp只有桌面chrome可以</h3><br><video id="my-video" class="video-js" controls preload="auto" width="640" height="300" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>   <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv"><br>   <!-- 如果上面的rtmp流无法播放，就播放hls流 --><br>   <!-- <source src="http://10.10.5.119/live/livestream.m3u8" type='application/x-mpegURL'> --><br>   <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。<br>     To view this video please enable JavaScript, and consider upgrading to a web browser that<br>     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a><br>   </p><br></video><br><br><h3 class="text-center">http&amp;m3u8</h3><br><video id="my-video" class="video-js" controls preload="auto" width="640" height="300" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>   <!-- <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv">   --><br>   <!-- 如果上面的rtmp流无法播放，就播放hls流 --><br>   <source src="http://static.yizhibo.com/pc_live/static/video.swf?scid=k64YORrm2TN2WdPr" type="application/x-mpegURL"><br>   <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。<br>     To view this video please enable JavaScript, and consider upgrading to a web browser that<br>     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a><br>   </p><br></video><br><br><h3 class="text-center">Dplayer</h3>
 
