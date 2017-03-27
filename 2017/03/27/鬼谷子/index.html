@@ -1,12 +1,363 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  
-  
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+    <!-- 
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.0 -->
+
+    <!-- Title -->
     
-    <entry>
-      <title><![CDATA[鬼谷子]]></title>
-      <url>https://wdee0618.github.io/2017/03/27/%E9%AC%BC%E8%B0%B7%E5%AD%90/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。</p>
+    <title>
+        
+            鬼谷子 | 
+        
+        KUMU
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/kumuicon.png">
+    <link rel="icon" sizes="192x192" href="/img/kumuicon.png">
+    <link rel="apple-touch-icon" href="/img/kumuicon.png">
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="Wdee">
+    <meta name="description" content="null">
+    <meta name="keywords" content="null,先秦,道">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="KUMU">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://wdee0618.github.io">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="鬼谷子 | KUMU">
+    <meta property="og:description" content="null">
+    <meta property="og:article:tag" content="先秦"> <meta property="og:article:tag" content="道"> 
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/css/material.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/kumubg.jpg);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/queue.js"></script>
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#捭闔"><span class="post-toc-number">1.</span> <span class="post-toc-text">捭闔</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#反應"><span class="post-toc-number">2.</span> <span class="post-toc-text">反應</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#內揵"><span class="post-toc-number">3.</span> <span class="post-toc-text">內揵</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#抵巇"><span class="post-toc-number">4.</span> <span class="post-toc-text">抵巇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#飛箝"><span class="post-toc-number">5.</span> <span class="post-toc-text">飛箝</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#忤合"><span class="post-toc-number">6.</span> <span class="post-toc-text">忤合</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#揣篇"><span class="post-toc-number">7.</span> <span class="post-toc-text">揣篇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#摩篇"><span class="post-toc-number">8.</span> <span class="post-toc-text">摩篇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#權篇"><span class="post-toc-number">9.</span> <span class="post-toc-text">權篇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#謀篇"><span class="post-toc-number">10.</span> <span class="post-toc-text">謀篇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#決篇"><span class="post-toc-number">11.</span> <span class="post-toc-text">決篇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#符言"><span class="post-toc-number">12.</span> <span class="post-toc-text">符言</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#盛神法五龍"><span class="post-toc-number">13.</span> <span class="post-toc-text">盛神法五龍</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#養志法靈龜"><span class="post-toc-number">14.</span> <span class="post-toc-text">養志法靈龜</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#實意法螣蛇"><span class="post-toc-number">15.</span> <span class="post-toc-text">實意法螣蛇</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#分威法伏熊"><span class="post-toc-number">16.</span> <span class="post-toc-text">分威法伏熊</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#散勢法鷙鳥"><span class="post-toc-number">17.</span> <span class="post-toc-text">散勢法鷙鳥</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#轉圓法猛獸"><span class="post-toc-number">18.</span> <span class="post-toc-text">轉圓法猛獸</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#損兌法靈蓍"><span class="post-toc-number">19.</span> <span class="post-toc-text">損兌法靈蓍</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#持樞"><span class="post-toc-number">20.</span> <span class="post-toc-text">持樞</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#中經"><span class="post-toc-number">21.</span> <span class="post-toc-text">中經</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script>
+    var randomNum = Math.floor(Math.random() * 4 + 1);
+
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                鬼谷子
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/kumuavatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Wdee</strong>
+        <span>3月 27, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/先秦/">先秦</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/道/">道</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=鬼谷子&url=https://wdee0618.github.io//2017/03/27/鬼谷子/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。</p>
 <a id="more"></a> 
 <h4 id="捭闔"><a href="#捭闔" class="headerlink" title="捭闔"></a>捭闔</h4><p>粵若稽古聖人之在天地間也，為眾生之先，觀陰陽之開闔以名命物；知存亡之門戶，籌策萬類之終始，達人心之理，見變化之朕焉，而守司其門戶。故聖人之在天下也，自古至今，其道一也。</p>
 <p>變化無窮，各有所歸，或陰或陽，或柔或剛，或開或閉，或弛或張。是故，聖人一守</p>
@@ -107,134 +458,511 @@
 <p>「卻語」者，察伺短也。故言多必有數短之處，識其短，驗之。動以忌諱，示以時禁，其人恐畏，然後結信以安其心，收語蓋藏而卻之。無見己之所不能於多方之人。</p>
 <p>「攝心」者，謂逢好學伎術者，則為之稱遠；方驗之道，驚以奇怪，人繫其心於己，效之於人，驗去亂其前，吾歸誠於己。遭淫酒色者，為之術，音樂動之，以為必死，生日少之憂喜，以自所不見之事，終以可觀漫瀾之命，使有後會。</p>
 <p>「守義」者，謂守以仁義，探心在內以合者也。探心，探得其主也。從外制內，事有繫，曲而隨之也。故小人比人，則左道而用之，至能敗家奪國。非賢智不能守家以義，不能守國以道，聖人所貴道微妙者，誠以其可以轉危為安，救亡使存也。</p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> 先秦 </tag>
-            
-            <tag> 道 </tag>
-            
-        </tags>
-        
-    </entry>
+
     
-    <entry>
-      <title><![CDATA[music]]></title>
-      <url>https://wdee0618.github.io/2017/03/26/music/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h2 id="Aplayer"><a href="#Aplayer" class="headerlink" title="Aplayer"></a>Aplayer</h2><h4 id="单曲"><a href="#单曲" class="headerlink" title="单曲"></a>单曲</h4><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
-		<script>
-			new APlayer({
-				element: document.getElementById("aplayer0"),
-				narrow: false,
-				autoplay: false,
-				showlrc: 0,
-				music: {
-					title: "Promise",
-					author: "山冈晃",
-					url: "http://m2.music.126.net/LJgyuqU-O_TmI2tDxzzODg==/3274345632451312.mp3",
-					pic: "http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif",
-				}
-			});
-		</script>
-<h4 id="多曲随机带列表"><a href="#多曲随机带列表" class="headerlink" title="多曲随机带列表"></a>多曲随机带列表</h4>
-			<div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
-			<script>
-				var options = {"narrow":false,"autoplay":false,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"Promise","author":"山冈晃","url":"http://m2.music.126.net/LJgyuqU-O_TmI2tDxzzODg==/3274345632451312.mp3","pic":"http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif"},{"title":"Sugar","author":"Robin Schulz","url":"https://p2.music.126.net/zCu_9lObZshxKeaAwIEwWA==/7990151000515690.mp3","pic":"https://p4.music.126.net/vbMPrqWJ-ywerdZMT4fBzA==/7842816441968318.jpg","lrc":"sugar.txt"}]};
-				options.element = document.getElementById("aplayer1");
-				new APlayer(options);
-			</script>
 
-		
-<h4 id="Tutorial"><a href="#Tutorial" class="headerlink" title="Tutorial"></a>Tutorial</h4><ol>
-<li>改hexo配置文件<br><img src="http://wx4.sinaimg.cn/mw690/684e1b7fgy1fe0a6bx8iqj208b01rdfn.jpg" alt=""></li>
-<li>hexo new XXXX<br>此时会生成XXXX.md和XXXX文件夹</li>
-<li>在XXXX.md写代码</li>
-<li>找音源<a href="https://music.liuli.lol/song" target="_blank" rel="external">music</a></li>
-<li>找图片</li>
-<li>找歌词，制成XXXX.txt放在XXXX文件夹中<br><img src="http://wx3.sinaimg.cn/mw690/684e1b7fgy1fe0a6cmigfj20h30n8wha.jpg" alt=""></li>
-</ol>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> tutorial </tag>
-            
-            <tag> media </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[demo]]></title>
-      <url>https://wdee0618.github.io/2017/03/25/demo/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
-
-<p></p><h3 class="text-center">直播利用http&amp;m3u8</h3><p></p>
-<video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://117.158.206.60:9080/live/test.m3u8" type="application/x-mpegURL"><br></video>
+</div>
 
 
-<p></p><h3 id="wss" class="text-center">点播</h3><p></p>
-<p><video id="really-cool-video" class="kumuvideo video-js center-block vjs-default-skin vjs-big-play-centered " controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4" type="video/mp4"><br></video><br><br></p>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/video.js/5.13.2/video.min.js"></script>
-<script src="http://cdn.bootcss.com/video.js/5.18.0/video-js.swf"></script>
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/03/26/music/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/kumuavatar.png" alt="Wdee's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        736926867@qq.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#about" target="_blank" title="About Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">favorite</i>
+                        
+                        About Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/03/">三月 2017<span class="sidebar_archives-count">4</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="http://u2437392.viewer.maka.im/k/0QBZ1DUQ" title="Lucky">
+                
+                    <i class="material-icons sidebar-material-icons">send</i>
+                
+                Lucky
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/reveal/" title="Reveal">
+                
+                    <i class="material-icons sidebar-material-icons">nature_people</i>
+                
+                Reveal
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/wiki/" title="Wiki">
+                
+                    <i class="material-icons sidebar-material-icons">motorcycle</i>
+                
+                Wiki
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/gallery/" title="Gallery">
+                
+                    <i class="material-icons sidebar-material-icons">favorite</i>
+                
+                Gallery
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/tags/" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">loyalty</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/atom.xml" title="RSS">
+                
+                    <i class="material-icons sidebar-material-icons">rss_feed</i>
+                
+                RSS
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+    <span id="footer-image">
+        <a href="http://music.163.com/#/user/home?id=109564224" target="_blank" title="wangyiyun_logo">
+            <img src="/img/wangyiyun.jpg" alt="wangyiyun_logo">
+        </a>
+    </span>
+
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+        <a href="http://space.bilibili.com/15543491/#!/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-bilibili.png);">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;KUMU
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+<script src="/js/lazyload.min.js"></script>
+<script src="/js/js.min.js"></script>
+<script src="/js/nprogress.js"></script>
+
 <script type="text/javascript">
-    var kumu = $('#post-content').width();
-    var kumuw = parseInt(kumu);
-    var kumuh = parseInt(kumu * 0.6);
-    $('.kumuvideo').css("width",kumuw.toString());
-    $('.kumuvideo').css("height",kumuh.toString());
-</script>]]></content>
-      
-        <categories>
-            
-            <category> 技术 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> tutorial </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[video]]></title>
-      <url>https://wdee0618.github.io/2017/03/24/video/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
-
-<h3 id="wss" class="text-center">video.js单击此处弹播放器</h3><br><video id="really-cool-video" class="video-js center-block vjs-default-skin vjs-big-play-centered " controls preload="auto" width="640" height="600" poster="img/201510222203541161.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4"><br></video><br><br><br><br><h3 class="text-center">rtmp只有桌面chrome可以</h3><br><video id="my-video" class="video-js" controls preload="auto" width="640" height="300" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>   <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv"><br>   <!-- 如果上面的rtmp流无法播放，就播放hls流 --><br>   <!-- <source src="http://10.10.5.119/live/livestream.m3u8" type='application/x-mpegURL'> --><br>   <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。<br>     To view this video please enable JavaScript, and consider upgrading to a web browser that<br>     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a><br>   </p><br></video><br><br><h3 class="text-center">http&amp;m3u8</h3><br><video id="my-video" class="video-js" controls preload="auto" width="640" height="300" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>   <!-- <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv">   --><br>   <!-- 如果上面的rtmp流无法播放，就播放hls流 --><br>   <source src="http://static.yizhibo.com/pc_live/static/video.swf?scid=k64YORrm2TN2WdPr" type="application/x-mpegURL"><br>   <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。<br>     To view this video please enable JavaScript, and consider upgrading to a web browser that<br>     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a><br>   </p><br></video><br><br><h3 class="text-center">Dplayer</h3>
-
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4","pic":"http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo"}});</script>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/video.js/5.13.2/video.min.js"></script>
-<script type="text/javascript">
-$('#wss').click(function () {
-    $('#really-cool-video').show();
-    $('#really-cool-video button.vjs-big-play-button').click();
-})    
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
 </script>
 
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> media </tag>
-            
-            <tag> demo </tag>
-            
-        </tags>
-        
-    </entry>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Swiftye -->
+
+
+<!-- Local Search-->
+
+    <script>
+    var searchFunc = function(path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: 'xml',
+            success: function( xmlResponse ) {
+                // get the contents from search data
+                var datas = $( 'entry', xmlResponse ).map(function() {
+                    return {
+                        title: $( 'title', this ).text(),
+                        content: $('content',this).text(),
+                        url: $( 'url' , this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function() {
+                    var str='<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = '';
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function(data) {
+                        var isMatch = true;
+                        var content_index = [];
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g,'').toLowerCase();
+                        var data_url = data.url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if(data_title !== '' && data_content !== '') {
+                            keywords.forEach(function(keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if( index_title < 0 && index_content < 0 ) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += '<li><a href="'+ data_url +'" class="search-result-title" target="_blank">'+ data_title;
+                            var content = data.content.trim().replace(/<[^>]+>/g, '');
+                            if (first_occur >= 0) {
+                                // cut out characters
+                                var start = first_occur - 6;
+                                var end = first_occur + 6;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 10;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function(keyword) {
+                                    var regS = new RegExp(keyword, 'gi');
+                                    match_content = match_content.replace(regS, '<em class="search-keyword">'+keyword+'</em>');
+                                })
+                                str += '<p class="search-result">' + match_content + '...</p>' +'</a>';
+                            }
+                        }
+                    });
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    }
+</script>
+
+
+    <script>
+        var inputArea = document.querySelector('#search');
+        var getSearchFile = function() {
+            var path = 'search.xml';
+            searchFunc(path, 'search', 'local-search-result');
+        }
+
+        if(inputArea) {
+            inputArea.onfocus = function() {
+                getSearchFile();
+            }
+        }
+    </script>
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+
+                </main>
+            </div>
+        </body>
     
-  
-  
-</search>
+</html>

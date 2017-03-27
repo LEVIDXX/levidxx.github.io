@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wdee0618.github.io/"/>
-  <updated>2017-03-26T14:51:24.000Z</updated>
+  <updated>2017-03-27T03:55:52.000Z</updated>
   <id>https://wdee0618.github.io/</id>
   
   <author>
@@ -16,6 +16,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>鬼谷子</title>
+    <link href="https://wdee0618.github.io/2017/03/27/%E9%AC%BC%E8%B0%B7%E5%AD%90/"/>
+    <id>https://wdee0618.github.io/2017/03/27/鬼谷子/</id>
+    <published>2017-03-27T03:39:46.000Z</published>
+    <updated>2017-03-27T03:55:52.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="先秦" scheme="https://wdee0618.github.io/tags/%E5%85%88%E7%A7%A6/"/>
+    
+      <category term="道" scheme="https://wdee0618.github.io/tags/%E9%81%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>music</title>
     <link href="https://wdee0618.github.io/2017/03/26/music/"/>
     <id>https://wdee0618.github.io/2017/03/26/music/</id>
@@ -24,7 +44,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Aplayer&quot;&gt;&lt;a href=&quot;#Aplayer&quot; clas
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Aplayer&quot;&gt;&lt;a href=&quot;#Aplayer&quot; clas
     
     </summary>
     
@@ -40,15 +60,15 @@
     <link href="https://wdee0618.github.io/2017/03/25/demo/"/>
     <id>https://wdee0618.github.io/2017/03/25/demo/</id>
     <published>2017-03-25T06:39:37.000Z</published>
-    <updated>2017-03-26T15:34:00.000Z</updated>
+    <updated>2017-03-27T03:29:26.000Z</updated>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
     
     </summary>
     
-      <category term="小样" scheme="https://wdee0618.github.io/categories/%E5%B0%8F%E6%A0%B7/"/>
+      <category term="技术" scheme="https://wdee0618.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="tutorial" scheme="https://wdee0618.github.io/tags/tutorial/"/>
@@ -64,7 +84,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
     
     </summary>
     
