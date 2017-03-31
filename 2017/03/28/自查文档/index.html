@@ -10,7 +10,7 @@
     
     <title>
         
-            标签: media | 
+            自查文档 | 
         
         KUMU
     </title>
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Wdee">
     <meta name="description" content="null">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,code,app">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -48,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://wdee0618.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: media | KUMU">
+    <meta property="og:title" content="自查文档 | KUMU">
     <meta property="og:description" content="null">
-    
+    <meta property="og:article:tag" content="code"> <meta property="og:article:tag" content="app"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -203,148 +203,286 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-
-    <!-- Normal Post -->
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://ww2.sinaimg.cn/large/684e1b7fgw1f7na71haqwg20b40697va.gif)">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/26/music/">music</a></p>
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
     </div>
+    -->
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-             
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/26/music/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/kumuavatar.png" width="44px" height="44px" alt="Wdee's avatar">
-            </div>
-            <div>
-                <strong>Wdee</strong>
-                <span>3月 26, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#WXML"><span class="post-toc-number">1.</span> <span class="post-toc-text">WXML</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JSON"><span class="post-toc-number">2.</span> <span class="post-toc-text">JSON</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#WXSS"><span class="post-toc-number">3.</span> <span class="post-toc-text">WXSS</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#App-js"><span class="post-toc-number">4.</span> <span class="post-toc-text">App.js</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#生命周期函数"><span class="post-toc-number">5.</span> <span class="post-toc-text">生命周期函数</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
                 
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script>
+    var randomNum = Math.floor(Math.random() * 4 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/24/video/">video</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-             
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/24/video/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/kumuavatar.png" width="44px" height="44px" alt="Wdee's avatar">
-            </div>
-            <div>
-                <strong>Wdee</strong>
-                <span>3月 24, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 4 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
-
-        locatePost = locatePost.next();
-    }
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                自查文档
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/kumuavatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Wdee</strong>
+        <span>3月 28, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/app/">app</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/code/">code</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=自查文档&url=https://wdee0618.github.io//2017/03/28/自查文档/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h3 id="WXML"><a href="#WXML" class="headerlink" title="WXML"></a>WXML</h3><pre><code>&lt;view&gt;
+    {{变量}}
+&lt;/view&gt;
+</code></pre><h3 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h3><p>key和value均是’字符串’,</p>
+<h3 id="WXSS"><a href="#WXSS" class="headerlink" title="WXSS"></a>WXSS</h3><pre><code>.类{
+    NNN: UUU;
+}
+</code></pre><table>
+<thead>
+<tr>
+<th>名字</th>
+<th>用法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bindtap</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>width/height</td>
+<td>XXXrpx</td>
+<td>图片不接受百分比</td>
+</tr>
+<tr>
+<td>border-radius</td>
+<td>XXX%</td>
+<td>50%为正圆，越小越方</td>
+</tr>
+<tr>
+<td>display</td>
+<td>felx;</td>
+<td></td>
+</tr>
+<tr>
+<td>flex-direction</td>
+<td>column;</td>
+<td></td>
+</tr>
+<tr>
+<td>align-items</td>
+<td>center;</td>
+<td></td>
+</tr>
+<tr>
+<td>margin-top</td>
+<td>XXXpx</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="App-js"><a href="#App-js" class="headerlink" title="App.js"></a>App.js</h3><p>变量对应的只能为’字符串’,数值,布尔值,[数组],{对象}</p>
+<pre><code>Page({
+    data: {
+        变量: &apos;字符串&apos;,
+        变量: [{属性: &apos;字符串&apos;},{属性: 数值}],
+}
+})
+
+
+
+Page({
+    函数名：function(e){
+        this.setData({
+            变量名：结果
+        })
+    }
+})
+</code></pre><h3 id="生命周期函数"><a href="#生命周期函数" class="headerlink" title="生命周期函数"></a>生命周期函数</h3><p>在JS文件中直接拿来当变量名</p>
+<p>|||||</p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/03/28/Markdown/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/03/27/鬼谷子/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -574,6 +712,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 

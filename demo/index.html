@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		.wd{
+			font-size: 40px;
+		}
+		.wd-h3{
+			color: pink;
+		}
+		h3:hover{
+			color: red;
+		}
+	</style>
+	<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+	<h3 class="text-center wd-h3">&lt;i class="material-icons wd" &gt;android&lt;/i&gt;</h3>
+	<h3 class="text-center wd-h3">&lt;link href="http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet"&gt;</h3>
+	<div class="container-fluid">
+	<div ng-app="wd-AAA" ng-controller="wd-CCC">
+		<div class="row">
+			<div class="col-md-2" >
+				<table class="table-striped table table-hover wd-table">
+					<tr ng-repeat="aaa1 in bbb1">
+						<td><i class="material-icons wd">{{aaa1}}</i></td>
+						<td>{{aaa1}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-2" >
+				<table class="table-striped table table-hover">
+					<tr ng-repeat="aaa2 in bbb2">
+						<td><i class="material-icons wd">{{aaa2}}</i></td>
+						<td>{{aaa2}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-2" >
+				<table class="table-striped table table-hover">
+					<tr ng-repeat="aaa3 in bbb3">
+						<td><i class="material-icons wd">{{aaa3}}</i></td>
+						<td>{{aaa3}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-2" >
+				<table class="table-striped table table-hover">
+					<tr ng-repeat="aaa4 in bbb4">
+						<td><i class="material-icons wd">{{aaa4}}</i></td>
+						<td>{{aaa4}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-2" >
+				<table class="table-striped table table-hover">
+					<tr ng-repeat="aaa5 in bbb5">
+						<td><i class="material-icons wd">{{aaa5}}</i></td>
+						<td>{{aaa5}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-2" >
+				<table class="table-striped table table-hover">
+					<tr ng-repeat="aaa6 in bbb6">
+						<td><i class="material-icons wd">{{aaa6}}</i></td>
+						<td>{{aaa6}}</td>
+					</tr>
+				</table>
+			</div>
+		</div>	
+	</div>
+	<script>
+		var ddd = angular.module('wd-AAA', []);
+		ddd.controller('wd-CCC', function($scope) {
+		    $scope.bbb1 = [
+							 "account_box",
+							 "account_circle",
+							 "add_shopping_cart",
+							 "alarm",
+							 "alarm_on",
+							 "android",
+							 "announcement",
+							 "assignment",
+							 "assessment",
+							 "autorenew",
+							 "backup",
+							 "book",
+							 "bookmark",
+							 "bookmark_border",
+							 "bug_report",
+							 "build",
+							 "cached",
+							 "camera_enhance",
+							 "card_giftcard",
+							 "card_travel",
+							 "check_circle",
+							 "code",
+							 "credit_card",
+							 "dashboard",
+							 "date_range",
+							 "delete",
+							 "delete_forever",
+							 "description",
+							 "dns",
+							 "done",
+							 "event_seat",
+							 "exit_to_app",
+							 "explore",
+							 "extension",
+							 "add",
+							 "add_box",
+							 "add_circle",
+							 "archive",
+			];
+			$scope.bbb2 = [
+							"favorite",
+							"favorite_border",
+							"fingerprint",
+							"g_translate",
+							"get_app",
+							"gif",
+							"grade",
+							"group_work",
+							"help",
+							"help_outline",
+							"highlight_off",
+							"history",
+							"home",
+							"hourglass_empty",
+							"hourglass_full",
+							"http",
+							"https",
+							"important_devices",
+							"info",
+							"info_outline",
+							"input",
+							"invert_colors",
+							"label",
+							"label_outline",
+							"language",
+							"launch",
+							"lightbulb_outline",
+							"line_weight",
+							"list",
+							"lock",
+							"lock_open",
+							"lock_outline",
+							"loyalty",
+							"motorcycle",
+							"note_add",
+							"offline_pin",
+							"local_shipping",
+							"flag",
+			];
+			$scope.bbb3 = [
+							"face",
+							"perm_phone_msg",
+							"pan_tool",
+							"perm_identity",
+							"power_settings_new",
+							"print",
+							"question_answer",
+							"reorder",
+							"report_problem",
+							"room",
+							"search",
+							"settings",
+							"settings_overscan",
+							"shopping_cart",
+							"spellcheck",
+							"stars",
+							"supervisor_account",
+							"swap_vert",
+							"swap_vertical_circle",
+							"theaters",
+							"thumb_down",
+							"thumb_up",
+							"toc",
+							"touch_app",
+							"verified_user",
+							"view_list",
+							"view_module",
+							"visibility",
+							"visibility_off",
+							"work",
+							"zoom_in",
+							"zoom_out",
+							"add_alert",
+							"error",
+							"error_outline",
+							"airplay",
+							"closed_caption",
+							"equalizer",
+			];
+			    $scope.bbb4 = [
+			    				"fast_forward",
+			    				"fast_rewind",
+			    				"fiber_new",
+			    				"hd",
+			    				"loop",
+			    				"mic",
+			    				"mic_none",
+			    				"mic_off",
+			    				"pause",
+			    				"play_arrow",
+			    				"queue_music",
+			    				"radio",
+			    				"repeat",
+			    				"repeat_one",
+			    				"replay",
+			    				"skip_next",
+			    				"skip_previous",
+			    				"snooze",
+			    				"stop",
+			    				"video_call",
+			    				"videocam",
+			    				"videocam_off",
+			    				"volume_down",
+			    				"volume_mute",
+			    				"volume_off",
+			    				"volume_up",
+			    				"web_asset",
+			    				"call",
+			    				"call_end",
+			    				"chat",
+			    				"chat_bubble",
+			    				"comment",
+			    				"contact_mail",
+			    				"contact_phone",
+			    				"email",
+			    				"forum",
+			    				"import_contacts",
+			    				"import_export",
+				];
+				    $scope.bbb5 = [
+				    				"local_dining",
+				    				"local_drink",
+				    				"local_gas_station",
+				    				"more_horiz",
+				    				"more_vert",
+				    				"arrow_back",
+				    				"arrow_downward",
+				    				"arrow_forward",
+				    				"arrow_upward",
+				    				"event_available",
+				    				"event_busy",
+				    				"event_note",
+				    				"live_tv",
+				    				"more",
+				    				"power",
+				    				"tap_and_play",
+				    				"wc",
+				    				"wifi",
+				    				"ac_unit",
+				    				"beach_access",
+				    				"hot_tub",
+				    				"pool",
+				    				"smoke_free",
+				    				"smoking_rooms",
+				    				"cake",
+				    				"notifications_active",
+				    				"notifications",
+				    				"notifications_off",
+				    				"public",
+				    				"share",
+				    				"check_box",
+				    				"star",
+				    				"star_border",
+				    				"map",
+				    				"restaurant",
+				    				"cancel",
+				    				"content_copy",
+				    				"font_download",
+					];
+				    $scope.bbb6 = [
+								    "drafts",
+								    "exposure_neg_2",
+								    "exposure_plus_2",
+								    "exposure_zero",
+								    "flash_on",
+								    "flash_off",
+								    "flash_auto",
+								    "redo",
+								    "clear",
+								    "remove_circle",
+								    "looks_one",
+								    "nature_people",
+								    "style",
+								    "timer_10",
+								    "tune",
+								    "wb_sunny",
+								    "reply",
+								    "save",
+								    "send",
+								    "weekend",
+								    "battery_alert",
+								    "beenhere",
+								    "directions_bus",
+								    "directions_car",
+								    "directions_run",
+								    "phonelink_setup",
+								    "rss_feed",
+								    "vpn_key",
+								    "screen_share",
+								    "local_offer",
+								    "local_movies",
+								    "content_cut",
+								    "content_paste",
+								    "create",
+								    "link",
+								    "local_bar",
+								    "local_cafe",
+								    "live_help",
+					];
+		});
+	</script>
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wdee0618.github.io/"/>
-  <updated>2017-03-27T04:31:52.000Z</updated>
+  <updated>2017-03-28T05:54:12.000Z</updated>
   <id>https://wdee0618.github.io/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown</title>
+    <link href="https://wdee0618.github.io/2017/03/28/Markdown/"/>
+    <id>https://wdee0618.github.io/2017/03/28/Markdown/</id>
+    <published>2017-03-28T05:25:15.000Z</published>
+    <updated>2017-03-28T05:54:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;hea
+    
+    </summary>
+    
+    
+      <category term="tutorial" scheme="https://wdee0618.github.io/tags/tutorial/"/>
+    
+      <category term="code" scheme="https://wdee0618.github.io/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自查文档</title>
+    <link href="https://wdee0618.github.io/2017/03/28/%E8%87%AA%E6%9F%A5%E6%96%87%E6%A1%A3/"/>
+    <id>https://wdee0618.github.io/2017/03/28/自查文档/</id>
+    <published>2017-03-28T05:06:01.000Z</published>
+    <updated>2017-03-28T16:32:06.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;WXML&quot;&gt;&lt;a href=&quot;#WXML&quot; class=&quot;hea
+    
+    </summary>
+    
+    
+      <category term="code" scheme="https://wdee0618.github.io/tags/code/"/>
+    
+      <category term="app" scheme="https://wdee0618.github.io/tags/app/"/>
+    
+  </entry>
   
   <entry>
     <title>鬼谷子</title>
@@ -60,7 +100,7 @@
     <link href="https://wdee0618.github.io/2017/03/25/demo/"/>
     <id>https://wdee0618.github.io/2017/03/25/demo/</id>
     <published>2017-03-25T06:39:37.000Z</published>
-    <updated>2017-03-27T03:29:26.000Z</updated>
+    <updated>2017-03-31T09:08:48.000Z</updated>
     
     <summary type="html">
     

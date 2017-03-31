@@ -4,6 +4,163 @@
   
     
     <entry>
+      <title><![CDATA[Markdown]]></title>
+      <url>https://wdee0618.github.io/2017/03/28/Markdown/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>无特殊说明的，所有代码顶格写，且写一行隔一行</p>
+<h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><ul>
+<li><p>代码：<code>#bp标题</code></p>
+</li>
+<li><p>说明：bp代表空格，记得空格，<code>#</code>越多字越小</p>
+</li>
+</ul>
+<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><ul>
+<li><p>代码：<code>![图片名字](图片url地址)</code></p>
+</li>
+<li><p>说明：名字可为空，地址选新浪微博</p>
+</li>
+</ul>
+<h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><ul>
+<li><p>代码：<code>***</code>=<code>---</code>=<code>___</code></p>
+</li>
+<li><p>说明：独占一行</p>
+</li>
+</ul>
+<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><ul>
+<li><p>代码：<code>|课程表|周六|周日|</code></p>
+</li>
+<li><p>说明：不隔行，紧贴着第二行输入<code>|-</code>后按<code>tab</code>键</p>
+</li>
+</ul>
+<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><ul>
+<li><p>代码：<code>`代码内容`</code></p>
+</li>
+<li><p>说明：点是数字<code>1</code>前面的那个键<code>~</code>的点，不是单引号</p>
+</li>
+</ul>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><ul>
+<li><p>代码：<code>bpbpbpbp</code>=<code>一个tab键</code></p>
+</li>
+<li><p>说明：没啥说的</p>
+</li>
+</ul>
+<h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><ul>
+<li><p>代码：<code>*bp列表第一个</code></p>
+</li>
+<li><p>说明：记得空格</p>
+</li>
+</ul>
+<h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><ul>
+<li><p>代码：<code>1.bp列表第一个</code></p>
+</li>
+<li><p>说明：记得英文句号和空格，有序列表前面要有纯文本做前提</p>
+</li>
+</ul>
+<h4 id="多媒体见单独文章"><a href="#多媒体见单独文章" class="headerlink" title="多媒体见单独文章"></a>多媒体见单独文章</h4>]]></content>
+      
+        
+        <tags>
+            
+            <tag> tutorial </tag>
+            
+            <tag> code </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[自查文档]]></title>
+      <url>https://wdee0618.github.io/2017/03/28/%E8%87%AA%E6%9F%A5%E6%96%87%E6%A1%A3/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h3 id="WXML"><a href="#WXML" class="headerlink" title="WXML"></a>WXML</h3><pre><code>&lt;view&gt;
+    {{变量}}
+&lt;/view&gt;
+</code></pre><h3 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h3><p>key和value均是’字符串’,</p>
+<h3 id="WXSS"><a href="#WXSS" class="headerlink" title="WXSS"></a>WXSS</h3><pre><code>.类{
+    NNN: UUU;
+}
+</code></pre><table>
+<thead>
+<tr>
+<th>名字</th>
+<th>用法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bindtap</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>width/height</td>
+<td>XXXrpx</td>
+<td>图片不接受百分比</td>
+</tr>
+<tr>
+<td>border-radius</td>
+<td>XXX%</td>
+<td>50%为正圆，越小越方</td>
+</tr>
+<tr>
+<td>display</td>
+<td>felx;</td>
+<td></td>
+</tr>
+<tr>
+<td>flex-direction</td>
+<td>column;</td>
+<td></td>
+</tr>
+<tr>
+<td>align-items</td>
+<td>center;</td>
+<td></td>
+</tr>
+<tr>
+<td>margin-top</td>
+<td>XXXpx</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="App-js"><a href="#App-js" class="headerlink" title="App.js"></a>App.js</h3><p>变量对应的只能为’字符串’,数值,布尔值,[数组],{对象}</p>
+<pre><code>Page({
+    data: {
+        变量: &apos;字符串&apos;,
+        变量: [{属性: &apos;字符串&apos;},{属性: 数值}],
+}
+})
+
+
+
+Page({
+    函数名：function(e){
+        this.setData({
+            变量名：结果
+        })
+    }
+})
+</code></pre><h3 id="生命周期函数"><a href="#生命周期函数" class="headerlink" title="生命周期函数"></a>生命周期函数</h3><p>在JS文件中直接拿来当变量名</p>
+<p>|||||</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> code </tag>
+            
+            <tag> app </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[鬼谷子]]></title>
       <url>https://wdee0618.github.io/2017/03/27/%E9%AC%BC%E8%B0%B7%E5%AD%90/</url>
       <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。</p>
@@ -174,11 +331,11 @@
       <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
 
 <p></p><h3 class="text-center">直播利用http&amp;m3u8</h3><p></p>
-<video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://117.158.206.60:9080/live/test.m3u8" type="application/x-mpegURL"><br></video>
+<video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" playsinline="" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://117.158.206.60:9080/live/test.m3u8" type="application/x-mpegURL"><br></video>
 
 
 <p></p><h3 id="wss" class="text-center">点播</h3><p></p>
-<p><video id="really-cool-video" class="kumuvideo video-js center-block vjs-default-skin vjs-big-play-centered " controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4" type="video/mp4"><br></video><br><br></p>
+<p><video id="really-cool-video" class="kumuvideo video-js center-block vjs-default-skin vjs-big-play-centered " playsinline="" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4" type="video/mp4"><br></video><br><br></p>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/video.js/5.13.2/video.min.js"></script>
 <script src="http://cdn.bootcss.com/video.js/5.18.0/video-js.swf"></script>
