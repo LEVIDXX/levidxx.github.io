@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title><![CDATA[词句]]></title>
+      <url>https://wdee0618.github.io/2017/04/05/%E8%AF%8D%E5%8F%A5/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>没在一起就没在一起吧，反正一辈子也没有多长</p>
+<p>所谓一见钟情，不过是见色起意</p>
+<p>考59分比考0分更难过，最痛苦的不是不曾拥有，而是差一点点就可以</p>
+<p>总有些事物和你一样，要是这辈子遇不到，也就不想不问了。可偏偏遇见了，就再也忘不掉了。可忘不掉的，却怎么也得不到</p>
+<p>这一生有多少真心话是以玩笑的形式说出去的</p>
+<p>我不喜欢这个世界，我只喜欢你</p>
+<p>-在[对不起]中间加上两个字，显得更悲伤<br>-对三，要不起</p>
+<p>喜欢这种东西，就是捂住嘴巴，也会从眼睛里跑出来</p>
+<p>周杰伦把爱情比喻成龙卷风，特别贴切，因为很多人一辈子都没有见过龙卷风</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 情绪 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Markdown]]></title>
       <url>https://wdee0618.github.io/2017/03/28/Markdown/</url>
       <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>无特殊说明的，所有代码顶格写，且写一行隔一行</p>
@@ -69,105 +92,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[自查文档]]></title>
-      <url>https://wdee0618.github.io/2017/03/28/%E8%87%AA%E6%9F%A5%E6%96%87%E6%A1%A3/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h3 id="WXML"><a href="#WXML" class="headerlink" title="WXML"></a>WXML</h3><pre><code>&lt;view&gt;
-    {{变量}}
-&lt;/view&gt;
-</code></pre><h3 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h3><p>key和value均是’字符串’,</p>
-<h3 id="WXSS"><a href="#WXSS" class="headerlink" title="WXSS"></a>WXSS</h3><pre><code>.类{
-    NNN: UUU;
-}
-</code></pre><table>
-<thead>
-<tr>
-<th>名字</th>
-<th>用法</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bindtap</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>width/height</td>
-<td>XXXrpx</td>
-<td>图片不接受百分比</td>
-</tr>
-<tr>
-<td>border-radius</td>
-<td>XXX%</td>
-<td>50%为正圆，越小越方</td>
-</tr>
-<tr>
-<td>display</td>
-<td>felx;</td>
-<td></td>
-</tr>
-<tr>
-<td>flex-direction</td>
-<td>column;</td>
-<td></td>
-</tr>
-<tr>
-<td>align-items</td>
-<td>center;</td>
-<td></td>
-</tr>
-<tr>
-<td>margin-top</td>
-<td>XXXpx</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="App-js"><a href="#App-js" class="headerlink" title="App.js"></a>App.js</h3><p>变量对应的只能为’字符串’,数值,布尔值,[数组],{对象}</p>
-<pre><code>Page({
-    data: {
-        变量: &apos;字符串&apos;,
-        变量: [{属性: &apos;字符串&apos;},{属性: 数值}],
-}
-})
-
-
-
-Page({
-    函数名：function(e){
-        this.setData({
-            变量名：结果
-        })
-    }
-})
-</code></pre><h3 id="生命周期函数"><a href="#生命周期函数" class="headerlink" title="生命周期函数"></a>生命周期函数</h3><p>在JS文件中直接拿来当变量名</p>
-<p>|||||</p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> code </tag>
-            
-            <tag> app </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[鬼谷子]]></title>
       <url>https://wdee0618.github.io/2017/03/27/%E9%AC%BC%E8%B0%B7%E5%AD%90/</url>
       <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。</p>
 <a id="more"></a> 
 <h4 id="捭闔"><a href="#捭闔" class="headerlink" title="捭闔"></a>捭闔</h4><p>粵若稽古聖人之在天地間也，為眾生之先，觀陰陽之開闔以名命物；知存亡之門戶，籌策萬類之終始，達人心之理，見變化之朕焉，而守司其門戶。故聖人之在天下也，自古至今，其道一也。</p>
-<p>變化無窮，各有所歸，或陰或陽，或柔或剛，或開或閉，或弛或張。是故，聖人一守</p>
-<p>司其門戶，審察其所先後，度權量能，校其伎巧短長。</p>
+<p>變化無窮，各有所歸，或陰或陽，或柔或剛，或開或閉，或弛或張。是故，聖人一守司其門戶，審察其所先後，度權量能，校其伎巧短長。</p>
 <p>夫賢不肖、智愚、勇怯、仁、義有差。乃可捭，乃可闔；乃可進，乃可退；乃可賤，乃可貴；無為以牧之。</p>
 <p>審定有無，與其實虛，隨其嗜欲以見其志意。微排其所言而捭反之，以求其實，貴得其指。闔而捭之，以求其利。或開而示之，或闔而閉之。開而示之者，同其情也；闔而閉之者，異其誠也。可與不可，審明其計謀，以原其同異。離合有守，先從其志。即欲捭之，貴周；即欲闔之，貴密。周密之貴，微而與道相追。</p>
 <p>捭之者，料其情也；闔之者，結其誠也。皆見其權衡輕重，乃為之度數，聖人因而為之慮；其不中權衡度數，聖人因而自為之慮。</p>
@@ -331,7 +261,7 @@ Page({
       <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
 
 <p></p><h3 class="text-center">直播利用http&amp;m3u8</h3><p></p>
-<video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" playsinline="" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://117.158.206.60:9080/live/test.m3u8" type="application/x-mpegURL"><br></video>
+<video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" playsinline="" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8" type="application/x-mpegURL"><br></video>
 
 
 <p></p><h3 id="wss" class="text-center">点播</h3><p></p>
@@ -357,36 +287,6 @@ Page({
         <tags>
             
             <tag> tutorial </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[video]]></title>
-      <url>https://wdee0618.github.io/2017/03/24/video/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
-
-<h3 id="wss" class="text-center">video.js单击此处弹播放器</h3><br><video id="really-cool-video" class="video-js center-block vjs-default-skin vjs-big-play-centered " controls preload="auto" width="640" height="600" poster="img/201510222203541161.gif" data-setup="{}"><br>  <source src="http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4"><br></video><br><br><br><br><h3 class="text-center">rtmp只有桌面chrome可以</h3><br><video id="my-video" class="video-js" controls preload="auto" width="640" height="300" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>   <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv"><br>   <!-- 如果上面的rtmp流无法播放，就播放hls流 --><br>   <!-- <source src="http://10.10.5.119/live/livestream.m3u8" type='application/x-mpegURL'> --><br>   <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。<br>     To view this video please enable JavaScript, and consider upgrading to a web browser that<br>     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a><br>   </p><br></video><br><br><h3 class="text-center">http&amp;m3u8</h3><br><video id="my-video" class="video-js" controls preload="auto" width="640" height="300" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>   <!-- <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv">   --><br>   <!-- 如果上面的rtmp流无法播放，就播放hls流 --><br>   <source src="http://static.yizhibo.com/pc_live/static/video.swf?scid=k64YORrm2TN2WdPr" type="application/x-mpegURL"><br>   <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。<br>     To view this video please enable JavaScript, and consider upgrading to a web browser that<br>     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a><br>   </p><br></video><br><br><h3 class="text-center">Dplayer</h3>
-
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"http://js.a.yximgs.com/udata/W_WEEG_N_x3hQ_en.mp4","pic":"http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo"}});</script>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/video.js/5.13.2/video.min.js"></script>
-<script type="text/javascript">
-$('#wss').click(function () {
-    $('#really-cool-video').show();
-    $('#really-cool-video button.vjs-big-play-button').click();
-})    
-</script>
-
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> media </tag>
-            
-            <tag> demo </tag>
             
         </tags>
         
