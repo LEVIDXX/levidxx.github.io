@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[词句]]></title>
       <url>https://wdee0618.github.io/2017/04/05/%E8%AF%8D%E5%8F%A5/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>没在一起就没在一起吧，反正一辈子也没有多长</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p>没在一起就没在一起吧，反正一辈子也没有多长</p>
 <p>所谓一见钟情，不过是见色起意</p>
 <p>考59分比考0分更难过，最痛苦的不是不曾拥有，而是差一点点就可以</p>
 <p>总有些事物和你一样，要是这辈子遇不到，也就不想不问了。可偏偏遇见了，就再也忘不掉了。可忘不掉的，却怎么也得不到</p>
@@ -15,6 +15,8 @@
 <p>-在[对不起]中间加上两个字，显得更悲伤<br>-对三，要不起</p>
 <p>喜欢这种东西，就是捂住嘴巴，也会从眼睛里跑出来</p>
 <p>周杰伦把爱情比喻成龙卷风，特别贴切，因为很多人一辈子都没有见过龙卷风</p>
+<p>雪崩时，没有一片雪花觉得自己有责任</p>
+<p>雪崩时，没有一片雪花是无辜的</p>
 ]]></content>
       
         
@@ -29,7 +31,7 @@
     <entry>
       <title><![CDATA[Markdown]]></title>
       <url>https://wdee0618.github.io/2017/03/28/Markdown/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>无特殊说明的，所有代码顶格写，且写一行隔一行</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>无特殊说明的，所有代码顶格写，且写一行隔一行</p>
 <h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><ul>
 <li><p>代码：<code>#bp标题</code></p>
 </li>
@@ -83,9 +85,9 @@
         
         <tags>
             
-            <tag> tutorial </tag>
-            
             <tag> code </tag>
+            
+            <tag> tutorial </tag>
             
         </tags>
         
@@ -94,7 +96,7 @@
     <entry>
       <title><![CDATA[鬼谷子]]></title>
       <url>https://wdee0618.github.io/2017/03/27/%E9%AC%BC%E8%B0%B7%E5%AD%90/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p>云遮雾绕鬼谷子，阅读过仅有的篇章，是否确有其人已然不重要。</p>
 <a id="more"></a> 
 <h4 id="捭闔"><a href="#捭闔" class="headerlink" title="捭闔"></a>捭闔</h4><p>粵若稽古聖人之在天地間也，為眾生之先，觀陰陽之開闔以名命物；知存亡之門戶，籌策萬類之終始，達人心之理，見變化之朕焉，而守司其門戶。故聖人之在天下也，自古至今，其道一也。</p>
 <p>變化無窮，各有所歸，或陰或陽，或柔或剛，或開或閉，或弛或張。是故，聖人一守司其門戶，審察其所先後，度權量能，校其伎巧短長。</p>
@@ -210,7 +212,7 @@
     <entry>
       <title><![CDATA[music]]></title>
       <url>https://wdee0618.github.io/2017/03/26/music/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><h2 id="Aplayer"><a href="#Aplayer" class="headerlink" title="Aplayer"></a>Aplayer</h2><h4 id="单曲"><a href="#单曲" class="headerlink" title="单曲"></a>单曲</h4><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><h2 id="Aplayer"><a href="#Aplayer" class="headerlink" title="Aplayer"></a>Aplayer</h2><h4 id="单曲"><a href="#单曲" class="headerlink" title="单曲"></a>单曲</h4><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
 				element: document.getElementById("aplayer0"),
@@ -258,7 +260,7 @@
     <entry>
       <title><![CDATA[demo]]></title>
       <url>https://wdee0618.github.io/2017/03/25/demo/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><link href="http://cdn.bootcss.com/video.js/5.13.2/video-js.min.css" rel="stylesheet">
 
 <p></p><h3 class="text-center">直播利用http&amp;m3u8</h3><p></p>
 <video id="my-video" class="video-js kumuvideo center-block vjs-default-skin vjs-big-play-centered" playsinline="" controls preload="auto" width="100%" height="100%" poster="http://ww2.sinaimg.cn/mw690/684e1b7fjw1f7pu9rohy5g20go09bhdt.gif" data-setup="{}"><br>    <source src="http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8" type="application/x-mpegURL"><br></video>
