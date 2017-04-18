@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wdee0618.github.io/"/>
-  <updated>2017-04-13T06:00:36.000Z</updated>
+  <updated>2017-04-18T06:58:34.000Z</updated>
   <id>https://wdee0618.github.io/</id>
   
   <author>
@@ -16,6 +16,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>录制教学视频</title>
+    <link href="https://wdee0618.github.io/2017/04/18/%E5%BD%95%E5%88%B6%E6%95%99%E5%AD%A6%E8%A7%86%E9%A2%91/"/>
+    <id>https://wdee0618.github.io/2017/04/18/录制教学视频/</id>
+    <published>2017-04-18T05:34:46.000Z</published>
+    <updated>2017-04-18T06:58:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;特别喜欢可汗录制视频的极简感觉，所以找了些办法来还原&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tutorial" scheme="https://wdee0618.github.io/tags/tutorial/"/>
+    
+      <category term="media" scheme="https://wdee0618.github.io/tags/media/"/>
+    
+  </entry>
+  
+  <entry>
     <title>词句</title>
     <link href="https://wdee0618.github.io/2017/04/05/%E8%AF%8D%E5%8F%A5/"/>
     <id>https://wdee0618.github.io/2017/04/05/词句/</id>
@@ -24,7 +44,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;没在一起就没在一起吧，反正一辈子也没有多长&lt;/p&gt;
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;没在一起就没在一起吧，反正一辈子也没有多长&lt;/p&gt;
 &lt;p&gt;所谓一见钟情，不
     
     </summary>
@@ -43,14 +63,14 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;hea
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;hea
     
     </summary>
     
     
-      <category term="code" scheme="https://wdee0618.github.io/tags/code/"/>
-    
       <category term="tutorial" scheme="https://wdee0618.github.io/tags/tutorial/"/>
+    
+      <category term="code" scheme="https://wdee0618.github.io/tags/code/"/>
     
   </entry>
   
@@ -83,7 +103,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Aplayer&quot;&gt;&lt;a href=&quot;#Aplayer&quot; clas
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Aplayer&quot;&gt;&lt;a href=&quot;#Aplayer&quot; clas
     
     </summary>
     
@@ -103,7 +123,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
+      &lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link href=&quot;http://cdn.bootcss.com/video
     
     </summary>
     
